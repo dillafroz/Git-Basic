@@ -1,0 +1,289 @@
+*{
+margin:0;
+padding:0;		
+}
+div, section{
+	margin:0;
+	padding:0;
+}
+img{
+	max-width:100%;
+	height:auto;
+	
+}
+a:focus{
+	outline:0px none;
+	
+}
+-webkit-::selection{
+	background:#34AFE1;
+	color:#fff;
+}
+-moz-::selection{
+	background:#34AFE1;
+	color:#fff;
+}
+::selection{
+	background:#34AFE1;
+	color:#fff;
+}
+h1, h2, h3, h4, h5, h6{
+	margin:0;
+	padding:0;
+}
+.flow{
+	overflow:hidden;
+}
+.width{
+    width: 100%;
+    margin: auto;
+}
+.fleft{
+	float:left;
+}
+.fright{
+	float:right;
+}
+.clear{
+	clear:both;
+}
+ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+a:hover{
+	text-decoration:none;
+	color:#8ec448;
+	
+}
+a:active, a:hover{
+	outline:0 none;
+	
+}
+body{
+	font-size:16px;
+	color:#444;
+}
+::placeholder{
+	color:black;
+	font-size: 19px;
+}
+/*######### menu ###########*/
+.header_area{
+    background: pink;
+    overflow: hidden;
+}
+.menu_area{}
+.left_width{
+    width: 18%;
+    background: white;
+    float: left;
+    margin-right: 5%;
+}
+.menu_logo{
+text-align: center;
+}
+.logo_one{
+    margin: 20px 0px;
+}
+.logo_two{}
+.logo_two img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.logo_two i{
+    width: 30px;
+    height: 30px;
+    background: #f0e0e0;
+    border-radius: 30px;
+    line-height: 30px;
+    position: absolute;
+    left: 149px;
+    top: 100px;
+    color: grey;
+}
+.logo_two h5{
+    color: #99AEB7;
+    padding-bottom: 50px;
+}
+.menu{}
+.menu ul{}
+.menu ul li{}
+.menu ul li i{
+    padding: 20px;
+    color: #99AEB7;
+}
+.menu ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #99AEB7;
+}
+.menu ul li p{
+    float: right;
+    width: 30px;
+    height: 30px;
+    background: grey;
+    border-radius: 15px;
+    margin-top: 12px;
+    font-size: 20px;
+    margin-right: 15px;
+}
+.footer_area{
+    margin-top: 1000px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.footer{}
+.footer h2{
+    padding: 15px;
+    color: #0000008c;
+}
+.footer a{
+    display: inline-block;
+    text-decoration: none;
+    color: #0080008f;
+}
+.footer p{
+    color: #80C7FB;
+    padding: 15px; 
+
+}
+/*######### right description ###########*/
+.right_description_area{}
+.right_width{
+    width: 72%;
+    overflow: hidden;
+    margin-right: 5%;
+}
+.description_top_area{
+    overflow: hidden;
+}
+.search_bar{
+    float: left;
+    margin-top: 30px;
+}
+.search_button{
+    width: 110px;
+    padding: 10px;
+    outline: none;
+    background: #efe9e912;
+    border: 2px grey;
+}
+.search{
+    background: #615c5c00;
+    padding: 12px 20px 13px 20px;
+    outline: none;
+    margin-left: -5px;
+    font-size: 15px;
+}
+.recent_bar{
+    float: right;
+    margin-top: 30px;
+}
+.recent{
+    float: left;
+}
+.recent ul{}
+.recent ul li{
+    float: left;
+}
+.recent ul li a{
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    color: #00000082;
+    padding-right: 40px;
+}
+.recent ul li i{}
+.add{
+    float: right;
+}
+.add ul li{}
+.add ul li a{
+    display: block;
+    text-decoration: none;
+    padding: -2px;
+    background: red;
+    width: 175px;
+    height: 30px;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 30px;
+    color: white;
+    padding-top: 8px;
+}
+.description_bottom_area{
+    overflow: hidden;
+    margin-top: 20px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid grey;
+}
+.bottom_left_area{}
+.bottom_text_one{
+    float: left;
+}
+.bottom_text_one h2{
+    font-size: 15px;
+    color: #000000b0;
+    margin-right: 20px;
+}
+.bottom_text_two{
+    float: left;
+}
+.bottom_text_two p{
+    font-size: 10px;
+    padding: 5px;
+}
+.bottom_right_area{
+    float: right;
+}
+.bottom_right_text{
+    float: left;
+    width: 30px;
+    height: 30px;
+    background: orange;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+.bottom_right_text i{
+    font-size: 16px;
+    margin-left: 9px;
+    margin-top: 8px;
+}
+.bottom_right_point{
+    float: right;
+}
+.bottom_right_point span a{
+    width: 10px;
+    height: 10px;
+    background: #000000a8;
+    display: inline-block;
+    border-radius: 30px;
+}
+    /*######## description ########*/
+
+.tennants_description_area{}
+.single_tennant{}
+.single_tennant_top{}
+.tennants_left_text{}
+.tennants_right_icon{}
+.tennants_button{}
+.all_icon{}
+.single_tennant_middle{}
+.tennants_logo{}
+.tennants_logo img{}
+.tennants_text{}
+.tennants_text h1{}
+.tennants_text h2{}
+.tennants_text p{}
+.tennants_three_logo{}
+.div_one{}
+.div_two{}
+.div_three{}
+.single_tennant_botttom{}
+.single_tennant_botttom ul li{}
+.single_tennant_botttom ul li i{}
+.single_tennant_botttom ul li i a{}
